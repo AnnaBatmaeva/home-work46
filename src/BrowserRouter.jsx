@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "./App";
 import Home from "./pages/home";
 import Posts from "./pages/posts";
+import FormPage from "./pages/form";
 
 
 const router = createBrowserRouter([
@@ -11,6 +12,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "posts", element: <Posts /> },
+      { path: "form", element: <FormPage /> },
     ],
   },
 ]);
