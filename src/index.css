@@ -91,9 +91,18 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.formContainer__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 
 }
 
+.rrr {
+  color: red;
+}
 .errorText {
   color: red;
 }
